@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald:wght@200..700&display=swap');
+
+body {
+    color: #000;
+    background: #EFE8E2;
+    font-family: "Oswald", Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+
+.menu {
+    background: #382d2d;
+    height: 80px;
+}
+
+header img {
+    width: 80px;
+    height: 100%;
+}
+
+header .image {
+    height: 100%;
+}
+header .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header .menu  ul {
+    list-style: none;
+    text-align: right;
+    margin: 0px;
+}
+
+header .menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.menu-e1 {
+    position: relative;
+}
+
+.menu.active {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+.menu-e {
+    width: 100%;
+    background: #382d2d;
+    padding: 20px 0px;
+    transition: all .3s ease;
+    height: 300px;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    z-index: 99999;
+}
+
+.menu-e.active {
+    left: 0px;
+}
+
+
+
+
+.icono {
+    float: right;
+    display: block;
+    text-align: right;
+    color: #fff;
+    font-size: 40px;
+}
+
+header .menu-e ul {
+    text-align: left;
+}
+
+header .menu-e ul li {
+    display: block;
+    margin: 30px;
+}
+
+header .menu .ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.background {
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.background-img {
+    width: 100%;
+    height: 100%;
+    background: url(img/fondo-restaurant\ 1.png) #352929;
+    background-size: cover;
+    background-position: center;
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    /* filter: blur(6px); */
+    /* -webkit-filter: blur(6px); */
+    /* background: #3a2d2d; */
+    /* z-index: 1; */
+}
+
+.background-img2 {
+    width: 100%;
+    height: 100%;
+    background: #352929;
+    opacity: 0.7;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.container-titulo h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+}
+
+.container-titulo1 {
+    text-align: center;
+    position: absolute;
+    margin-top: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-titulo h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.container-titulo h1, .container-titulo h2 {
+    color: #fff;
+}
+
+.container-titulo button {
+    padding: 10px 30px;
+    margin-top: 30px;
+    background: #312222;
+    border: none;
+}
+
+.platillos-especiales img {
+    width: 100%;
+}
+
+.platillos .platillos-principales {
+    background: #fff;
+    padding: 60px;
+    color: #382d2d;
+    text-align: center;
+    font-weight: thin;
+}
+
+.platillos .platillos-principales h2 {
+    font-size: 26px;
+}
+
+.platillos .platillos-principales .titulo-platillos-principales h2, .platillos .menu .titulo-platillos-principales h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.platillos .platillos-principales a {
+    background: #382d2d;
+    border: none;
+}
+
+.platillos .menu {
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+    background: #382d2d;
+}
+
+.platillos .menu h2 {
+    font-size: 26px;
+}
+
+.platillos .menu a {
+    background: #fff;
+    border: none;
+    color: #382d2d;
+}
+
+.platillos-especiales h2 {
+    color: #382d2d;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.titulo-platillos-principales h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.platillos-especiales hr {
+    border: 1px solid #382d2d;
+    opacity: 1;
+}
+
+.titulo-platillos-e {
+    margin: 50px 01px;
+}
+
+.platillos-especiales .titulo-platillos-e {
+    text-align: center;
+}
+
+.platillos-especiales .titulo {
+    width: auto;
+    display: inline-block;
+}
+
+.p-menu {
+    background: #fff;
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 20px;
+    background: #312222;
+    color: #fff;
+}
+
+.p-menu .pr {
+    text-align: right;
+}
+
+.p-menu p {
+    margin-bottom: 30px;
+}
+
+.sobre-nosotros {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    color: #382d2d;
+    text-align: justify;
+}
+
+.form .form-control {
+    border: 1px solid #382d2d;
+    color: #382d2d;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.form {
+    color: #382d2d;
+    font-size: 20px;
+}
+
+.contactanos {
+    background: #fff;
+    border-radius: 20px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+.contactanos .col-md-6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.form .grupo {
+    margin-bottom: 30px;
+}
+
+.form .grupo label {
+    margin-bottom: 10px;
+}
+
+.contactanos iframe {
+    width: 100%;
+    height: 600px;
+}
+
+.form button {
+    background: #382d2d;
+    color: #fff;
+    width: 100%;
+    border: none;
+}
+
+.form .grupo textarea {
+    height: 200px;
+}
+
+.contactanos .row .derecha {
+    text-align: right;
+}
+
+.contactanos .row {
+    margin: 0px;
+}
+
+footer {
+    background: #382d2d;
+    padding: 30px;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .platillos-especiales .imagen-platillos {
+        margin-bottom: 20px;
+    }
+    body p {
+        font-size: 16px;
+    }
+
+    .menu-e {
+        display: block;
+    }
+
+    header .menu .ul {
+        display: none;
+    }
+}
